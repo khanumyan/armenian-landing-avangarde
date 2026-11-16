@@ -2,7 +2,7 @@
 
 A static travel site about Armenia: an About Armenia guide (culture, religion, cuisine, money, transport, places, tips), FAQ, and tour pages.
 
-**Live site:** https://khanumyan.github.io/visit-armenia/
+**Live site:** https://khanumyan.github.io/armenian-landing-avangarde/
 
 ## Pages
 The site is in two languages: **Russian (default)** at the root and **English** in `en/`.
@@ -19,6 +19,6 @@ When you change a page, update both versions.
 ```
 python3 serve.py
 ```
-Then open http://127.0.0.1:8765/
+Then open http://127.0.0.1:8766/
 
 Photos: mostly from Wikimedia Commons; authors and licenses are listed in `img/credits.json`.

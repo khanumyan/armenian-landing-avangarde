@@ -303,3 +303,7 @@ footer{background:#0e2248;color:#c9d6ea;padding:40px 0;font-size:14px}
 .lang a[href]:hover{color:#fff}
 .lang a.active{color:#fff;border-color:rgba(255,255,255,.45)}
 @media (max-width:760px){.lang{margin:0 12px 0 0}}
+.places-4{grid-template-columns:repeat(4,1fr)}
+@media (min-width:1101px){.tours-list{--per:4}.tours-list .tour-card-body{padding:20px 20px 24px}.tours-list .tour-card-body h3{font-size:21px}}
+@media (max-width:1000px){.places-4{grid-template-columns:1fr 1fr}}
+@media (max-width:760px){.places-4{grid-template-columns:1fr}}

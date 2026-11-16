@@ -1,13 +1,13 @@
 """Local preview server for the VisitArmenia site.
 
-Usage:  python3 serve.py        then open http://127.0.0.1:8765/
+Usage:  python3 serve.py        then open http://127.0.0.1:8766/
 
 Sends no-cache headers so the browser always shows the latest files.
 """
 import http.server
 import os
 
-PORT = 8765
+PORT = 8766
 
 
 class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
